@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="iN0-l3-epB" customClass="CustomInfoWindow">
+            <rect key="frame" x="0.0" y="0.0" width="224" height="127"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title 4535 345345 3 435 435" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwD-7p-q8u">
+                    <rect key="frame" x="96" y="8" width="120" height="54"/>
+                    <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Vk-l7-c4c">
+                    <rect key="frame" x="8" y="8" width="80" height="111"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="ejc-q5-VIT"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Adress" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3X-eK-mYX">
+                    <rect key="frame" x="96" y="104.5" width="120" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9Vk-l7-c4c" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="2LA-JX-1YE"/>
+                <constraint firstAttribute="trailing" secondItem="OwD-7p-q8u" secondAttribute="trailing" constant="8" id="3Dp-0h-BRf"/>
+                <constraint firstItem="9Vk-l7-c4c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Avo-BV-zkq"/>
+                <constraint firstAttribute="bottom" secondItem="9Vk-l7-c4c" secondAttribute="bottom" constant="8" id="SvW-h7-t62"/>
+                <constraint firstAttribute="bottom" secondItem="Y3X-eK-mYX" secondAttribute="bottom" constant="8" id="VrO-Vh-j8E"/>
+                <constraint firstItem="Y3X-eK-mYX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="OwD-7p-q8u" secondAttribute="bottom" constant="8" id="iza-Rg-NgM"/>
+                <constraint firstItem="OwD-7p-q8u" firstAttribute="leading" secondItem="9Vk-l7-c4c" secondAttribute="trailing" constant="8" id="lAp-YZ-Nwx"/>
+                <constraint firstItem="OwD-7p-q8u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="qLC-Vl-Sjh"/>
+                <constraint firstItem="Y3X-eK-mYX" firstAttribute="leading" secondItem="9Vk-l7-c4c" secondAttribute="trailing" constant="8" id="vMa-qJ-jCJ"/>
+                <constraint firstAttribute="trailing" secondItem="Y3X-eK-mYX" secondAttribute="trailing" constant="8" id="xUH-hx-wpk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="adress" destination="Y3X-eK-mYX" id="mkG-y0-vNO"/>
+                <outlet property="image" destination="9Vk-l7-c4c" id="dVx-EG-agT"/>
+                <outlet property="title" destination="OwD-7p-q8u" id="gSy-gt-oWM"/>
+            </connections>
+            <point key="canvasLocation" x="413" y="188.5"/>
+        </view>
+    </objects>
+</document>

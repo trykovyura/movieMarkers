@@ -1,0 +1,14 @@
+/* 
+  Localization.strings
+  Movie Points
+
+  Created by Юрий Трыков on 15.05.16.
+  Copyright © 2016 trykov. All rights reserved.
+*/
+"cancel"  = "Отмена";
+"year" = "Год";
+"country" = "Страна";
+"director"  = "Режиссер";
+"genre" = "Жанр";
+"section_film" = "Описание фильма";
+"section_place" = "Места съемок";

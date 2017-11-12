@@ -7,25 +7,174 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A888D703A5BA93EBDF92EA0 /* FilmsMapRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CBE506E1D4FDAC1D8CC833 /* FilmsMapRouter.m */; };
+		2960E05E1FAE37FA00B77155 /* FilmFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960E05D1FAE37FA00B77155 /* FilmFeedCell.xib */; };
 		296B704B1F2E648600CCADD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 296B704A1F2E648600CCADD5 /* main.m */; };
-		296B704E1F2E648600CCADD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 296B704D1F2E648600CCADD5 /* AppDelegate.m */; };
-		296B70511F2E648600CCADD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296B70501F2E648600CCADD5 /* ViewController.m */; };
-		296B70541F2E648600CCADD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296B70521F2E648600CCADD5 /* Main.storyboard */; };
-		296B70561F2E648600CCADD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296B70551F2E648600CCADD5 /* Assets.xcassets */; };
-		296B70591F2E648600CCADD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296B70571F2E648600CCADD5 /* LaunchScreen.storyboard */; };
+		299CCB571F9CBE5700630147 /* FilmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 299CCB561F9CBE5700630147 /* FilmCell.xib */; };
+		299CCB591F9CC0C600630147 /* MarkerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 299CCB581F9CC0C600630147 /* MarkerCell.xib */; };
+		29A5EFC21F8AA5A3004C8446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A5EFBE1F8AA5A3004C8446 /* Main.storyboard */; };
+		29A5EFC31F8AA5A3004C8446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A5EFC01F8AA5A3004C8446 /* LaunchScreen.storyboard */; };
+		2B6A1D4C149BCA453BB3FFB1 /* FilmDetailsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F082B81A1E68EFC9CD8B640 /* FilmDetailsRouter.m */; };
+		48F5F6C6F8D2C1D7E9AD7DB3 /* FilmDetailsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 337BEE305D715366D32699BB /* FilmDetailsPresenter.m */; };
+		4F6F11EF88C8DC7C11D19B0C /* FilmsMapPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF998DDF053F472A134674 /* FilmsMapPresenter.m */; };
+		515096F8C8E1F0ACB5D3AE83 /* FilmDetailsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C693285D3242D8DB3E6CDCB5 /* FilmDetailsAssembly.m */; };
+		60E37389361014FA54D26C3C /* FilmsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9902E1CE52082C3F82B7B441 /* FilmsMapViewController.m */; };
+		6284CEF2937D51B85C70F39E /* FilmDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A363DD8E7ABAB971A7C93FE /* FilmDetailsViewController.m */; };
+		69A0A1E18BB69DE70C606EBC /* FilmsFeedRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDB378DB17C5643BB63915 /* FilmsFeedRouter.m */; };
+		8B38047675D4E0F91321A051 /* FilmDetailsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D01B6CCE3E0F98A393450B /* FilmDetailsInteractor.m */; };
+		A9D2253B3FA9EBA2E23BFCBE /* FilmsMapInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C05AF5E219D638B8A3E4018D /* FilmsMapInteractor.m */; };
+		AFDD269AFF04BAA80897FD88 /* FilmsFeedInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5981C11C3686DFE3EE0BA96 /* FilmsFeedInteractor.m */; };
+		B18B311B206BBF8BEB9FA58C /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18B3846EAA7AA352B104CF8 /* CustomInfoWindow.xib */; };
+		B18B3152BF326535D8CC0E79 /* FilmServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3EF3E5FC4ED3F133E85B /* FilmServiceImpl.m */; };
+		B18B331D00CF4F636F2ACDF6 /* FilmFeedCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3012F697B4F626CA35FD /* FilmFeedCellObject.m */; };
+		B18B345FC2049B8392126E77 /* FilmPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3C5958966BD17966F09D /* FilmPlainObject.m */; };
+		B18B353D0AB21B562D52B007 /* ApplicationConfiguratorImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3872A0E2C4705729E6B1 /* ApplicationConfiguratorImplementation.m */; };
+		B18B35FE857921DFCAECD63C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3007D4CA168B9041B770 /* Constants.m */; };
+		B18B36BFFCC5E5863F49E535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18B381E6FF72DB33A816EE5 /* Assets.xcassets */; };
+		B18B37831D485E40A2F95A5F /* FilmPlainObjectMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B36530D243FD3E31EDF96 /* FilmPlainObjectMappingProvider.m */; };
+		B18B392D68F0AADC7B30E0E9 /* FilmFeedCellObjectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B359C4D5F7746E042839E /* FilmFeedCellObjectBuilder.m */; };
+		B18B395795700BEA6B72C4B9 /* ModuleAssemblyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3E1D2491E53E14A78BD7 /* ModuleAssemblyBase.m */; };
+		B18B3A0AEB1507E4B5738CFA /* FilmDetailsDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3139456F9DC5D87477C6 /* FilmDetailsDataDisplayManager.m */; };
+		B18B3A2CA45D66BEBACFC1D3 /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3C59142F2B4CFD04820B /* ServiceComponentsAssembly.m */; };
+		B18B3AF3D3060C10A4EF33BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3BA4E3441737B38E87E8 /* AppDelegate.m */; };
+		B18B3B475B6E94672D32C5A4 /* MarkerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3C445EED82E82730E9A2 /* MarkerCell.m */; };
+		B18B3B873F8F58DDEEC13F00 /* MarkerCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3ABDC287182C86A31169 /* MarkerCellObject.m */; };
+		B18B3B8D9D8EEADC16B1B2DA /* FilmCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3C3397017BAD713958C5 /* FilmCellObject.m */; };
+		B18B3BE46DAFD8436D5193A3 /* FilmFeedDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B38822BC66EF9F9492113 /* FilmFeedDataDisplayManager.m */; };
+		B18B3C5C3CF50A82449A1790 /* FilmFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B30C695F9DDEF4A3FCA37 /* FilmFeedCell.m */; };
+		B18B3C8C5AA69ACAB948C766 /* films.json in Resources */ = {isa = PBXBuildFile; fileRef = B18B38AF0C75B1F9A5F1968B /* films.json */; };
+		B18B3CA070D6CA9FA527E224 /* MarkerPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B353BACF1282E6798D150 /* MarkerPlainObject.m */; };
+		B18B3CDEC6B6C557452513CF /* CustomInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B32045DED442906875375 /* CustomInfoWindow.m */; };
+		B18B3D233DC72C01D31A55F9 /* FilmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B33394992685866C03C0D /* FilmCell.m */; };
+		B18B3D7D8863F62574B67BA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18B3FA03ED9453C3E2FFF94 /* Localizable.strings */; };
+		B18B3E059EACA80863928119 /* MarkerJsonConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3429A54944E3C391CF5A /* MarkerJsonConverter.m */; };
+		B18B3E9CC92B4820F81770AF /* MarkerPlainObjectMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3F05034715B20530A0C3 /* MarkerPlainObjectMappingProvider.m */; };
+		B18B3F8B16F4230AB8E45DA6 /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B39D581F40F40D9F870D8 /* ApplicationAssembly.m */; };
+		B18B3FB192775808889EEFF2 /* FilmDetailsCellObjectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B3B5CF58C02FFEFA203CE /* FilmDetailsCellObjectBuilder.m */; };
+		B38313634F78DCB81E7DB945 /* FilmsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A53BB65CF9117EF1EA18577 /* FilmsFeedViewController.m */; };
+		C41D3B147D15BDED2296AEC5 /* FilmsFeedAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF1ADAF2384A555A4213CC7 /* FilmsFeedAssembly.m */; };
+		F18910171DB9FF4EC5B19EB7 /* libPods-Movie Markers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B5FFD645F1DF92D8B49E83 /* libPods-Movie Markers.a */; };
+		F2D8DAE476F69F85A153B39F /* FilmsFeedPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC03621B7C0802E4F7220D4 /* FilmsFeedPresenter.m */; };
+		FA7F6D0435F04320178E2666 /* FilmsMapAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A19D5A065C5887EB370DF /* FilmsMapAssembly.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		038C38F58F3DD4198E53AB2A /* FilmDetailsViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsViewInput.h; sourceTree = "<group>"; };
+		04E67037AE742FBD6E6B30F9 /* FilmsMapViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapViewOutput.h; sourceTree = "<group>"; };
+		159A442DEABE71D2B52B511C /* FilmsMapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapViewController.h; sourceTree = "<group>"; };
+		17B51A949F8151FA9D1C7253 /* FilmDetailsRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsRouterInput.h; sourceTree = "<group>"; };
+		1A363DD8E7ABAB971A7C93FE /* FilmDetailsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsViewController.m; sourceTree = "<group>"; };
+		24B2B737511839AAFD6F1064 /* FilmsFeedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedViewController.h; sourceTree = "<group>"; };
+		2960E05D1FAE37FA00B77155 /* FilmFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmFeedCell.xib; sourceTree = "<group>"; };
 		296B70461F2E648600CCADD5 /* Movie Markers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Markers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		296B704A1F2E648600CCADD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		296B704C1F2E648600CCADD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		296B704D1F2E648600CCADD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		296B704F1F2E648600CCADD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		296B70501F2E648600CCADD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		296B70531F2E648600CCADD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		296B70551F2E648600CCADD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		296B70581F2E648600CCADD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		296B705A1F2E648600CCADD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299CCB561F9CBE5700630147 /* FilmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmCell.xib; sourceTree = "<group>"; };
+		299CCB581F9CC0C600630147 /* MarkerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerCell.xib; sourceTree = "<group>"; };
+		29A5EFBF1F8AA5A3004C8446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29A5EFC11F8AA5A3004C8446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32E20CD6DA50D44FE3315CC3 /* FilmsFeedViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedViewOutput.h; sourceTree = "<group>"; };
+		337BEE305D715366D32699BB /* FilmDetailsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsPresenter.m; sourceTree = "<group>"; };
+		33E88C71007D374ADD50A48F /* FilmsMapRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapRouterInput.h; sourceTree = "<group>"; };
+		387F935AB58FE09E4F3F44FE /* FilmsMapPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapPresenter.h; sourceTree = "<group>"; };
+		39C09D30CCB2874EF61AF3E5 /* FilmDetailsInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsInteractor.h; sourceTree = "<group>"; };
+		3CEE9B80659D32C1F91B8008 /* FilmDetailsRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsRouter.h; sourceTree = "<group>"; };
+		4B4A19D5A065C5887EB370DF /* FilmsMapAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsMapAssembly.m; sourceTree = "<group>"; };
+		5D8E846DDA43C657115F1ED6 /* FilmsMapViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapViewInput.h; sourceTree = "<group>"; };
+		6A53BB65CF9117EF1EA18577 /* FilmsFeedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsFeedViewController.m; sourceTree = "<group>"; };
+		7DD6EE010C6CC9278B094038 /* FilmDetailsInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsInteractorOutput.h; sourceTree = "<group>"; };
+		89D50646B3418CB197EA3E25 /* FilmDetailsInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsInteractorInput.h; sourceTree = "<group>"; };
+		8F082B81A1E68EFC9CD8B640 /* FilmDetailsRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsRouter.m; sourceTree = "<group>"; };
+		90B42CF33F62B77AF164988B /* FilmsFeedModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedModuleInput.h; sourceTree = "<group>"; };
+		92C152655A3D5034CE71DB0C /* FilmsFeedPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedPresenter.h; sourceTree = "<group>"; };
+		92CBE506E1D4FDAC1D8CC833 /* FilmsMapRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsMapRouter.m; sourceTree = "<group>"; };
+		934695EA62D80CEF9A5B5A1F /* FilmsMapInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapInteractor.h; sourceTree = "<group>"; };
+		9490C3FCA097AE739FB11518 /* Pods-Movie Markers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Markers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Markers/Pods-Movie Markers.debug.xcconfig"; sourceTree = "<group>"; };
+		9902E1CE52082C3F82B7B441 /* FilmsMapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsMapViewController.m; sourceTree = "<group>"; };
+		991F9B99A754ECAB666F91ED /* FilmsFeedRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedRouter.h; sourceTree = "<group>"; };
+		9C9C40A2CB0ECDCA023B5B55 /* FilmsFeedInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedInteractor.h; sourceTree = "<group>"; };
+		9DBDB378DB17C5643BB63915 /* FilmsFeedRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsFeedRouter.m; sourceTree = "<group>"; };
+		9ECEF79F94ACB124BEA3AE63 /* FilmDetailsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsViewController.h; sourceTree = "<group>"; };
+		A5981C11C3686DFE3EE0BA96 /* FilmsFeedInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsFeedInteractor.m; sourceTree = "<group>"; };
+		A631D9AEAFFD4E7A09987FBE /* FilmDetailsViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsViewOutput.h; sourceTree = "<group>"; };
+		A7DFE01E00A568204AEA7AAC /* FilmDetailsModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsModuleInput.h; sourceTree = "<group>"; };
+		AAC03621B7C0802E4F7220D4 /* FilmsFeedPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsFeedPresenter.m; sourceTree = "<group>"; };
+		ACF1ADAF2384A555A4213CC7 /* FilmsFeedAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsFeedAssembly.m; sourceTree = "<group>"; };
+		ADF99CBB72A19422159102D8 /* FilmsFeedViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedViewInput.h; sourceTree = "<group>"; };
+		B029E4F72491775CF1888196 /* FilmsMapModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapModuleInput.h; sourceTree = "<group>"; };
+		B18B3007D4CA168B9041B770 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		B18B3012F697B4F626CA35FD /* FilmFeedCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmFeedCellObject.m; sourceTree = "<group>"; };
+		B18B30C695F9DDEF4A3FCA37 /* FilmFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmFeedCell.m; sourceTree = "<group>"; };
+		B18B30E8DF350726AF9AAFB1 /* MarkerJsonConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerJsonConverter.h; sourceTree = "<group>"; };
+		B18B311313AE34C23ADB2716 /* FilmPlainObjectMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmPlainObjectMappingProvider.h; sourceTree = "<group>"; };
+		B18B3139456F9DC5D87477C6 /* FilmDetailsDataDisplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsDataDisplayManager.m; sourceTree = "<group>"; };
+		B18B318990E5D941D88D8D07 /* ApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		B18B31CD464DD8FC351BF4FB /* MarkerCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerCellObject.h; sourceTree = "<group>"; };
+		B18B32045DED442906875375 /* CustomInfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInfoWindow.m; sourceTree = "<group>"; };
+		B18B332C3C772E4402E5BCDD /* FilmFeedCellObjectBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmFeedCellObjectBuilder.h; sourceTree = "<group>"; };
+		B18B33394992685866C03C0D /* FilmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmCell.m; sourceTree = "<group>"; };
+		B18B3429A54944E3C391CF5A /* MarkerJsonConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerJsonConverter.m; sourceTree = "<group>"; };
+		B18B34A1B6323865D3D28035 /* DataDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDisplayManager.h; sourceTree = "<group>"; };
+		B18B353BACF1282E6798D150 /* MarkerPlainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerPlainObject.m; sourceTree = "<group>"; };
+		B18B354E76865993E0CDFBCD /* FilmFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmFeedCell.h; sourceTree = "<group>"; };
+		B18B359C4D5F7746E042839E /* FilmFeedCellObjectBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmFeedCellObjectBuilder.m; sourceTree = "<group>"; };
+		B18B364E8C725263EFD7464D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B18B36530D243FD3E31EDF96 /* FilmPlainObjectMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmPlainObjectMappingProvider.m; sourceTree = "<group>"; };
+		B18B369B69134A364D08B691 /* FilmFeedDataDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmFeedDataDisplayManager.h; sourceTree = "<group>"; };
+		B18B36D5BCF8C6AAE9AE932E /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B18B37885DB4DE7783511F70 /* FilmDetailsCellObjectBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmDetailsCellObjectBuilder.h; sourceTree = "<group>"; };
+		B18B3796293AD17217F5B1C4 /* FilmServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmServiceImpl.h; sourceTree = "<group>"; };
+		B18B381E6FF72DB33A816EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18B3846EAA7AA352B104CF8 /* CustomInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
+		B18B3872A0E2C4705729E6B1 /* ApplicationConfiguratorImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationConfiguratorImplementation.m; sourceTree = "<group>"; };
+		B18B38822BC66EF9F9492113 /* FilmFeedDataDisplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmFeedDataDisplayManager.m; sourceTree = "<group>"; };
+		B18B38918AD45E457615B83B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B18B38AF0C75B1F9A5F1968B /* films.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = films.json; sourceTree = "<group>"; };
+		B18B38AF1613992755C855D3 /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B18B39147F6293A1078B56B2 /* ServiceComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponents.h; sourceTree = "<group>"; };
+		B18B3921935D6E64A54D7363 /* ServiceComponentsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponentsAssembly.h; sourceTree = "<group>"; };
+		B18B393F254B6F6A89C0022D /* FilmCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmCellObject.h; sourceTree = "<group>"; };
+		B18B3964C7E75B505CBB96E0 /* FilmPlainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmPlainObject.h; sourceTree = "<group>"; };
+		B18B398EE917CF1D7EAAE84A /* FilmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmCell.h; sourceTree = "<group>"; };
+		B18B39D581F40F40D9F870D8 /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
+		B18B3A3D8386396717437D61 /* JsonArrayConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonArrayConverter.h; sourceTree = "<group>"; };
+		B18B3AB03AEB171FA15A9FDC /* ModuleAssemblyBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAssemblyBase.h; sourceTree = "<group>"; };
+		B18B3ABDC287182C86A31169 /* MarkerCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerCellObject.m; sourceTree = "<group>"; };
+		B18B3B4E67F0C24D14FFA0FC /* ApplicationConfiguratorImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConfiguratorImplementation.h; sourceTree = "<group>"; };
+		B18B3B58A8D924BAD2CA09D9 /* FilmFeedCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmFeedCellObject.h; sourceTree = "<group>"; };
+		B18B3B5CF58C02FFEFA203CE /* FilmDetailsCellObjectBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsCellObjectBuilder.m; sourceTree = "<group>"; };
+		B18B3BA4E3441737B38E87E8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B18B3C2EC84BFE5E218DA7A2 /* MarkerPlainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerPlainObject.h; sourceTree = "<group>"; };
+		B18B3C3397017BAD713958C5 /* FilmCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmCellObject.m; sourceTree = "<group>"; };
+		B18B3C445EED82E82730E9A2 /* MarkerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerCell.m; sourceTree = "<group>"; };
+		B18B3C59142F2B4CFD04820B /* ServiceComponentsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceComponentsAssembly.m; sourceTree = "<group>"; };
+		B18B3C5958966BD17966F09D /* FilmPlainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmPlainObject.m; sourceTree = "<group>"; };
+		B18B3C79BE687D27A2D2B0C9 /* MarkerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerCell.h; sourceTree = "<group>"; };
+		B18B3C90F3D169A74163DE90 /* FilmService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmService.h; sourceTree = "<group>"; };
+		B18B3CC0A3345BCAF9B9A52C /* ApplicationConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConfigurator.h; sourceTree = "<group>"; };
+		B18B3D03218D149000DC1969 /* FilmDetailsDataDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmDetailsDataDisplayManager.h; sourceTree = "<group>"; };
+		B18B3DE4BE795162AD064156 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B18B3DF730CE1E88DA9458CD /* PlainObjectMappingProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainObjectMappingProviderProtocol.h; sourceTree = "<group>"; };
+		B18B3E1D2491E53E14A78BD7 /* ModuleAssemblyBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAssemblyBase.m; sourceTree = "<group>"; };
+		B18B3EDA3F09B1C2171A7BF7 /* MarkerPlainObjectMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerPlainObjectMappingProvider.h; sourceTree = "<group>"; };
+		B18B3EF3E5FC4ED3F133E85B /* FilmServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmServiceImpl.m; sourceTree = "<group>"; };
+		B18B3F05034715B20530A0C3 /* MarkerPlainObjectMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerPlainObjectMappingProvider.m; sourceTree = "<group>"; };
+		B18B3FD6E402FDF3B0A67469 /* CustomInfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInfoWindow.h; sourceTree = "<group>"; };
+		B3EAE4FC86B0B1B31C8656AA /* FilmsFeedInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedInteractorOutput.h; sourceTree = "<group>"; };
+		B96960366334E868D1468E55 /* FilmsMapAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapAssembly.h; sourceTree = "<group>"; };
+		BAF398660024B49230990FD1 /* Pods-Movie Markers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Markers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Markers/Pods-Movie Markers.release.xcconfig"; sourceTree = "<group>"; };
+		C05AF5E219D638B8A3E4018D /* FilmsMapInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsMapInteractor.m; sourceTree = "<group>"; };
+		C6162FEBE2E6B70E1841258B /* FilmDetailsAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsAssembly.h; sourceTree = "<group>"; };
+		C693285D3242D8DB3E6CDCB5 /* FilmDetailsAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsAssembly.m; sourceTree = "<group>"; };
+		CA9C83FC209F540E0FB3E2F6 /* FilmsMapRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapRouter.h; sourceTree = "<group>"; };
+		D8E7400C466B82B67190AAD0 /* FilmsMapInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapInteractorInput.h; sourceTree = "<group>"; };
+		D9B5FFD645F1DF92D8B49E83 /* libPods-Movie Markers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Movie Markers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E183C36354D043648CD700 /* FilmsFeedInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedInteractorInput.h; sourceTree = "<group>"; };
+		DFB5A9760A881573E90EB7DE /* FilmsMapInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsMapInteractorOutput.h; sourceTree = "<group>"; };
+		E02E776317CFDE415000A9DB /* FilmsFeedAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedAssembly.h; sourceTree = "<group>"; };
+		E92510DAE68B40C65AAA7B9B /* FilmDetailsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmDetailsPresenter.h; sourceTree = "<group>"; };
+		EABF998DDF053F472A134674 /* FilmsMapPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmsMapPresenter.m; sourceTree = "<group>"; };
+		EC2DEC5DF944472A018D4BE9 /* FilmsFeedRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FilmsFeedRouterInput.h; sourceTree = "<group>"; };
+		F9D01B6CCE3E0F98A393450B /* FilmDetailsInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsInteractor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +182,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18910171DB9FF4EC5B19EB7 /* libPods-Movie Markers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D93954CD3FF4AD846D9F1D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				33E88C71007D374ADD50A48F /* FilmsMapRouterInput.h */,
+				CA9C83FC209F540E0FB3E2F6 /* FilmsMapRouter.h */,
+				92CBE506E1D4FDAC1D8CC833 /* FilmsMapRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0A6B53FC0F92A793AF08BA79 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				89D50646B3418CB197EA3E25 /* FilmDetailsInteractorInput.h */,
+				7DD6EE010C6CC9278B094038 /* FilmDetailsInteractorOutput.h */,
+				39C09D30CCB2874EF61AF3E5 /* FilmDetailsInteractor.h */,
+				F9D01B6CCE3E0F98A393450B /* FilmDetailsInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		10253D57D900F3A33F09BA36 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EC2DEC5DF944472A018D4BE9 /* FilmsFeedRouterInput.h */,
+				991F9B99A754ECAB666F91ED /* FilmsFeedRouter.h */,
+				9DBDB378DB17C5643BB63915 /* FilmsFeedRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		20795ADE30475DDB5F0CEE7D /* FilmsFeedModule */ = {
+			isa = PBXGroup;
+			children = (
+				6525FAB5B2AF8BC946A39C03 /* Assembly */,
+				CF91A7D6E7C95A374D9579E9 /* View */,
+				22487F098A0DEE0B6FA34449 /* Presenter */,
+				2192A0584173D7F38FA6E96C /* Interactor */,
+				10253D57D900F3A33F09BA36 /* Router */,
+			);
+			path = FilmsFeedModule;
+			sourceTree = "<group>";
+		};
+		2192A0584173D7F38FA6E96C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D9E183C36354D043648CD700 /* FilmsFeedInteractorInput.h */,
+				B3EAE4FC86B0B1B31C8656AA /* FilmsFeedInteractorOutput.h */,
+				9C9C40A2CB0ECDCA023B5B55 /* FilmsFeedInteractor.h */,
+				A5981C11C3686DFE3EE0BA96 /* FilmsFeedInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		22487F098A0DEE0B6FA34449 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				90B42CF33F62B77AF164988B /* FilmsFeedModuleInput.h */,
+				92C152655A3D5034CE71DB0C /* FilmsFeedPresenter.h */,
+				AAC03621B7C0802E4F7220D4 /* FilmsFeedPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		296B703D1F2E648600CCADD5 = {
 			isa = PBXGroup;
 			children = (
 				296B70481F2E648600CCADD5 /* Movie Markers */,
 				296B70471F2E648600CCADD5 /* Products */,
+				CE81D21AE07A7746117DFFE4 /* Pods */,
+				CCCD8E860962B2CA789D0842 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +274,9 @@
 		296B70481F2E648600CCADD5 /* Movie Markers */ = {
 			isa = PBXGroup;
 			children = (
-				296B704C1F2E648600CCADD5 /* AppDelegate.h */,
-				296B704D1F2E648600CCADD5 /* AppDelegate.m */,
-				296B704F1F2E648600CCADD5 /* ViewController.h */,
-				296B70501F2E648600CCADD5 /* ViewController.m */,
-				296B70521F2E648600CCADD5 /* Main.storyboard */,
-				296B70551F2E648600CCADD5 /* Assets.xcassets */,
-				296B70571F2E648600CCADD5 /* LaunchScreen.storyboard */,
-				296B705A1F2E648600CCADD5 /* Info.plist */,
 				296B70491F2E648600CCADD5 /* Supporting Files */,
+				B18B3A6C4C362645AA0D704F /* Resources */,
+				B18B34BADFA420C6478FEAE1 /* Classes */,
 			);
 			path = "Movie Markers";
 			sourceTree = "<group>";
@@ -75,8 +285,629 @@
 			isa = PBXGroup;
 			children = (
 				296B704A1F2E648600CCADD5 /* main.m */,
+				B18B364E8C725263EFD7464D /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBCE8E3CEEB21CE73AE2577 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				038C38F58F3DD4198E53AB2A /* FilmDetailsViewInput.h */,
+				A631D9AEAFFD4E7A09987FBE /* FilmDetailsViewOutput.h */,
+				9ECEF79F94ACB124BEA3AE63 /* FilmDetailsViewController.h */,
+				1A363DD8E7ABAB971A7C93FE /* FilmDetailsViewController.m */,
+				B18B313DB515193404BE9915 /* DataDisplayManagers */,
+				B18B31FA8F0DCE23F1FC041E /* Cells */,
+				B18B3AC486BFCC35FC25EAF7 /* CellObjects */,
+				B18B3860B1E5CD6FFF72E685 /* CellObjectBuilders */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6525FAB5B2AF8BC946A39C03 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				E02E776317CFDE415000A9DB /* FilmsFeedAssembly.h */,
+				ACF1ADAF2384A555A4213CC7 /* FilmsFeedAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		6FB35246627B69CB28D36E16 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C6162FEBE2E6B70E1841258B /* FilmDetailsAssembly.h */,
+				C693285D3242D8DB3E6CDCB5 /* FilmDetailsAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9C1F9A2271D0E8681C7AFDD0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B029E4F72491775CF1888196 /* FilmsMapModuleInput.h */,
+				387F935AB58FE09E4F3F44FE /* FilmsMapPresenter.h */,
+				EABF998DDF053F472A134674 /* FilmsMapPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A85182C59B919380497847E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E846DDA43C657115F1ED6 /* FilmsMapViewInput.h */,
+				04E67037AE742FBD6E6B30F9 /* FilmsMapViewOutput.h */,
+				159A442DEABE71D2B52B511C /* FilmsMapViewController.h */,
+				9902E1CE52082C3F82B7B441 /* FilmsMapViewController.m */,
+				B18B3E6D99F2D1A4309FF0A4 /* CustomInfoWindow */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B18B3028BD30C2053F53A16F /* CellObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3A4EDBE92A719710C384 /* FilmFeedCellObject */,
+			);
+			path = CellObjects;
+			sourceTree = "<group>";
+		};
+		B18B303B72742E9FAA931B69 /* DataDisplayManagers */ = {
+			isa = PBXGroup;
+			children = (
+				B18B38822BC66EF9F9492113 /* FilmFeedDataDisplayManager.m */,
+				B18B369B69134A364D08B691 /* FilmFeedDataDisplayManager.h */,
+			);
+			path = DataDisplayManagers;
+			sourceTree = "<group>";
+		};
+		B18B304657CF925DA2E7630A /* MarkerPlainObjectMappingProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3F05034715B20530A0C3 /* MarkerPlainObjectMappingProvider.m */,
+				B18B3EDA3F09B1C2171A7BF7 /* MarkerPlainObjectMappingProvider.h */,
+			);
+			path = MarkerPlainObjectMappingProvider;
+			sourceTree = "<group>";
+		};
+		B18B30F4E552BE71E83F1F27 /* ServiceComponentsAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				B18B39147F6293A1078B56B2 /* ServiceComponents.h */,
+				B18B3C59142F2B4CFD04820B /* ServiceComponentsAssembly.m */,
+				B18B3921935D6E64A54D7363 /* ServiceComponentsAssembly.h */,
+			);
+			path = ServiceComponentsAssembly;
+			sourceTree = "<group>";
+		};
+		B18B313DB515193404BE9915 /* DataDisplayManagers */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3139456F9DC5D87477C6 /* FilmDetailsDataDisplayManager.m */,
+				B18B3D03218D149000DC1969 /* FilmDetailsDataDisplayManager.h */,
+			);
+			path = DataDisplayManagers;
+			sourceTree = "<group>";
+		};
+		B18B313E8271457AB3FEC03C /* PlainObjectProviders */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3DF730CE1E88DA9458CD /* PlainObjectMappingProviderProtocol.h */,
+				B18B38C4CE47F90AF18653BA /* ConcreteClasses */,
+			);
+			path = PlainObjectProviders;
+			sourceTree = "<group>";
+		};
+		B18B31902798F2DB09001E5D /* MappingProviders */ = {
+			isa = PBXGroup;
+			children = (
+				B18B313E8271457AB3FEC03C /* PlainObjectProviders */,
+			);
+			path = MappingProviders;
+			sourceTree = "<group>";
+		};
+		B18B31ECC44406BB5194881B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3007D4CA168B9041B770 /* Constants.m */,
+				B18B3DE4BE795162AD064156 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B18B31FA8F0DCE23F1FC041E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3F929F297FF0ABC0DC7C /* FilmCell */,
+				B18B3A88FEA7BE6AE4F82398 /* MarkerCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B18B32BB516AD387AE6255A8 /* CoreComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B18B31902798F2DB09001E5D /* MappingProviders */,
+				B18B3C2C838B0A9B8C193A7B /* JsonConverters */,
+			);
+			path = CoreComponents;
+			sourceTree = "<group>";
+		};
+		B18B32C2C80F18048007E0AC /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3FA03ED9453C3E2FFF94 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B18B33014562E2FE02F28610 /* ModuleAssemblyBase */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3E1D2491E53E14A78BD7 /* ModuleAssemblyBase.m */,
+				B18B3AB03AEB171FA15A9FDC /* ModuleAssemblyBase.h */,
+			);
+			path = ModuleAssemblyBase;
+			sourceTree = "<group>";
+		};
+		B18B33264C8396C44945627F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B18B38D7C0382BB5ECD619E6 /* ConcreteServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B18B3326F6344225F937B4B7 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B18B32BB516AD387AE6255A8 /* CoreComponents */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		B18B33B1D356EA37200235C3 /* PlainObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3C5958966BD17966F09D /* FilmPlainObject.m */,
+				B18B3964C7E75B505CBB96E0 /* FilmPlainObject.h */,
+				B18B353BACF1282E6798D150 /* MarkerPlainObject.m */,
+				B18B3C2EC84BFE5E218DA7A2 /* MarkerPlainObject.h */,
+			);
+			path = PlainObjects;
+			sourceTree = "<group>";
+		};
+		B18B33E35204118753CD4E55 /* FilmFeedCell */ = {
+			isa = PBXGroup;
+			children = (
+				B18B30C695F9DDEF4A3FCA37 /* FilmFeedCell.m */,
+				B18B354E76865993E0CDFBCD /* FilmFeedCell.h */,
+				2960E05D1FAE37FA00B77155 /* FilmFeedCell.xib */,
+			);
+			path = FilmFeedCell;
+			sourceTree = "<group>";
+		};
+		B18B3449F8AF4280BF09B272 /* DataDisplayManagers */ = {
+			isa = PBXGroup;
+			children = (
+				B18B34A1B6323865D3D28035 /* DataDisplayManager.h */,
+			);
+			path = DataDisplayManagers;
+			sourceTree = "<group>";
+		};
+		B18B34BADFA420C6478FEAE1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3D015BD6B77AC3AB0D22 /* ApplicationLayer */,
+				B18B39AE89658E642F1D2C42 /* Models */,
+				B18B3F25FDDFB04DA8789A4A /* PresentationLayer */,
+				B18B36EB0150F249588AED3D /* BusinessLogicLayer */,
+				B18B3326F6344225F937B4B7 /* CoreLayer */,
+				B18B31ECC44406BB5194881B /* Constants */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B18B34BE5303ADE8F369C233 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				20795ADE30475DDB5F0CEE7D /* FilmsFeedModule */,
+				DAC032A137F7B979F910F21E /* FilmDetailsModule */,
+				D9F6949E3E1BE112C2206F2F /* FilmsMapModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B18B3563899DF77157B5D4D0 /* CellObjectBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				B18B359C4D5F7746E042839E /* FilmFeedCellObjectBuilder.m */,
+				B18B332C3C772E4402E5BCDD /* FilmFeedCellObjectBuilder.h */,
+			);
+			path = CellObjectBuilders;
+			sourceTree = "<group>";
+		};
+		B18B3565B09F79CBB994097B /* FilmPlainObjectMappingProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B18B36530D243FD3E31EDF96 /* FilmPlainObjectMappingProvider.m */,
+				B18B311313AE34C23ADB2716 /* FilmPlainObjectMappingProvider.h */,
+			);
+			path = FilmPlainObjectMappingProvider;
+			sourceTree = "<group>";
+		};
+		B18B35CAC904387C7F76B44B /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				B18B38AF0C75B1F9A5F1968B /* films.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		B18B35CEB2207B6DC6B6664F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3449F8AF4280BF09B272 /* DataDisplayManagers */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B18B35DD66434EB3B800F612 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3BA4E3441737B38E87E8 /* AppDelegate.m */,
+				B18B38918AD45E457615B83B /* AppDelegate.h */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		B18B364CD2759F2115BF0DA2 /* FilmCellObject */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3C3397017BAD713958C5 /* FilmCellObject.m */,
+				B18B393F254B6F6A89C0022D /* FilmCellObject.h */,
+			);
+			path = FilmCellObject;
+			sourceTree = "<group>";
+		};
+		B18B36EB0150F249588AED3D /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3D1D5FF73247F6D8D272 /* Assemblies */,
+				B18B33264C8396C44945627F /* Services */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		B18B3860B1E5CD6FFF72E685 /* CellObjectBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3B5CF58C02FFEFA203CE /* FilmDetailsCellObjectBuilder.m */,
+				B18B37885DB4DE7783511F70 /* FilmDetailsCellObjectBuilder.h */,
+			);
+			path = CellObjectBuilders;
+			sourceTree = "<group>";
+		};
+		B18B38741D8E96BC2EDC7212 /* ApplicationConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3CC0A3345BCAF9B9A52C /* ApplicationConfigurator.h */,
+				B18B3872A0E2C4705729E6B1 /* ApplicationConfiguratorImplementation.m */,
+				B18B3B4E67F0C24D14FFA0FC /* ApplicationConfiguratorImplementation.h */,
+			);
+			path = ApplicationConfigurator;
+			sourceTree = "<group>";
+		};
+		B18B38C4CE47F90AF18653BA /* ConcreteClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3565B09F79CBB994097B /* FilmPlainObjectMappingProvider */,
+				B18B304657CF925DA2E7630A /* MarkerPlainObjectMappingProvider */,
+			);
+			path = ConcreteClasses;
+			sourceTree = "<group>";
+		};
+		B18B38D7C0382BB5ECD619E6 /* ConcreteServices */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3D6778E9B075091D3E3D /* FilmService */,
+			);
+			path = ConcreteServices;
+			sourceTree = "<group>";
+		};
+		B18B3951341454B46E24D71E /* FilmsUserStory */ = {
+			isa = PBXGroup;
+			children = (
+				B18B34BE5303ADE8F369C233 /* Modules */,
+			);
+			path = FilmsUserStory;
+			sourceTree = "<group>";
+		};
+		B18B39AE89658E642F1D2C42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B18B33B1D356EA37200235C3 /* PlainObjects */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B18B3A4EDBE92A719710C384 /* FilmFeedCellObject */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3012F697B4F626CA35FD /* FilmFeedCellObject.m */,
+				B18B3B58A8D924BAD2CA09D9 /* FilmFeedCellObject.h */,
+			);
+			path = FilmFeedCellObject;
+			sourceTree = "<group>";
+		};
+		B18B3A6C4C362645AA0D704F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3E7A52243AE6711FF259 /* Images */,
+				B18B32C2C80F18048007E0AC /* Strings */,
+				B18B35CAC904387C7F76B44B /* Jsons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B18B3A756977BF18A7161B61 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				B18B33014562E2FE02F28610 /* ModuleAssemblyBase */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		B18B3A88FEA7BE6AE4F82398 /* MarkerCell */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3C445EED82E82730E9A2 /* MarkerCell.m */,
+				B18B3C79BE687D27A2D2B0C9 /* MarkerCell.h */,
+				299CCB581F9CC0C600630147 /* MarkerCell.xib */,
+			);
+			path = MarkerCell;
+			sourceTree = "<group>";
+		};
+		B18B3AC486BFCC35FC25EAF7 /* CellObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B18B364CD2759F2115BF0DA2 /* FilmCellObject */,
+				B18B3B4514FE1C5CA74AE4A5 /* MarkerCellObject */,
+			);
+			path = CellObjects;
+			sourceTree = "<group>";
+		};
+		B18B3B4514FE1C5CA74AE4A5 /* MarkerCellObject */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3ABDC287182C86A31169 /* MarkerCellObject.m */,
+				B18B31CD464DD8FC351BF4FB /* MarkerCellObject.h */,
+			);
+			path = MarkerCellObject;
+			sourceTree = "<group>";
+		};
+		B18B3BA3A29E28737526F2EA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B18B35CEB2207B6DC6B6664F /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B18B3BB9F796D1637AD6B71F /* MarkerJsonConverter */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3429A54944E3C391CF5A /* MarkerJsonConverter.m */,
+				B18B30E8DF350726AF9AAFB1 /* MarkerJsonConverter.h */,
+			);
+			path = MarkerJsonConverter;
+			sourceTree = "<group>";
+		};
+		B18B3C2C838B0A9B8C193A7B /* JsonConverters */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3BB9F796D1637AD6B71F /* MarkerJsonConverter */,
+				B18B3A3D8386396717437D61 /* JsonArrayConverter.h */,
+			);
+			path = JsonConverters;
+			sourceTree = "<group>";
+		};
+		B18B3C93D3C290DEFECD6523 /* ApplicationAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				B18B39D581F40F40D9F870D8 /* ApplicationAssembly.m */,
+				B18B318990E5D941D88D8D07 /* ApplicationAssembly.h */,
+			);
+			path = ApplicationAssembly;
+			sourceTree = "<group>";
+		};
+		B18B3D015BD6B77AC3AB0D22 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B18B38741D8E96BC2EDC7212 /* ApplicationConfigurator */,
+				B18B3EFC6BB2F26D7AD12210 /* LaunchSystem */,
+				B18B3C93D3C290DEFECD6523 /* ApplicationAssembly */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		B18B3D1D5FF73247F6D8D272 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				B18B30F4E552BE71E83F1F27 /* ServiceComponentsAssembly */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		B18B3D6778E9B075091D3E3D /* FilmService */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3C90F3D169A74163DE90 /* FilmService.h */,
+				B18B3EF3E5FC4ED3F133E85B /* FilmServiceImpl.m */,
+				B18B3796293AD17217F5B1C4 /* FilmServiceImpl.h */,
+			);
+			path = FilmService;
+			sourceTree = "<group>";
+		};
+		B18B3E62FA6BC25C42FEB0B8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B18B33E35204118753CD4E55 /* FilmFeedCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B18B3E6D99F2D1A4309FF0A4 /* CustomInfoWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3FD6E402FDF3B0A67469 /* CustomInfoWindow.h */,
+				B18B32045DED442906875375 /* CustomInfoWindow.m */,
+				B18B3846EAA7AA352B104CF8 /* CustomInfoWindow.xib */,
+			);
+			path = CustomInfoWindow;
+			sourceTree = "<group>";
+		};
+		B18B3E7A52243AE6711FF259 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B18B381E6FF72DB33A816EE5 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B18B3EFC6BB2F26D7AD12210 /* LaunchSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B18B35DD66434EB3B800F612 /* AppDelegates */,
+			);
+			path = LaunchSystem;
+			sourceTree = "<group>";
+		};
+		B18B3EFDC66DF0F78CA8EACA /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				B18B3951341454B46E24D71E /* FilmsUserStory */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		B18B3F25FDDFB04DA8789A4A /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				29A5EFC01F8AA5A3004C8446 /* LaunchScreen.storyboard */,
+				29A5EFBE1F8AA5A3004C8446 /* Main.storyboard */,
+				B18B3EFDC66DF0F78CA8EACA /* UserStories */,
+				B18B3BA3A29E28737526F2EA /* Common */,
+				B18B3A756977BF18A7161B61 /* Assemblies */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		B18B3F929F297FF0ABC0DC7C /* FilmCell */ = {
+			isa = PBXGroup;
+			children = (
+				B18B33394992685866C03C0D /* FilmCell.m */,
+				B18B398EE917CF1D7EAAE84A /* FilmCell.h */,
+				299CCB561F9CBE5700630147 /* FilmCell.xib */,
+			);
+			path = FilmCell;
+			sourceTree = "<group>";
+		};
+		B83820590124C505EFA21B61 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A7DFE01E00A568204AEA7AAC /* FilmDetailsModuleInput.h */,
+				E92510DAE68B40C65AAA7B9B /* FilmDetailsPresenter.h */,
+				337BEE305D715366D32699BB /* FilmDetailsPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CCCD8E860962B2CA789D0842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5FFD645F1DF92D8B49E83 /* libPods-Movie Markers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE81D21AE07A7746117DFFE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9490C3FCA097AE739FB11518 /* Pods-Movie Markers.debug.xcconfig */,
+				BAF398660024B49230990FD1 /* Pods-Movie Markers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF91A7D6E7C95A374D9579E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF99CBB72A19422159102D8 /* FilmsFeedViewInput.h */,
+				32E20CD6DA50D44FE3315CC3 /* FilmsFeedViewOutput.h */,
+				24B2B737511839AAFD6F1064 /* FilmsFeedViewController.h */,
+				6A53BB65CF9117EF1EA18577 /* FilmsFeedViewController.m */,
+				B18B303B72742E9FAA931B69 /* DataDisplayManagers */,
+				B18B3E62FA6BC25C42FEB0B8 /* Cells */,
+				B18B3028BD30C2053F53A16F /* CellObjects */,
+				B18B3563899DF77157B5D4D0 /* CellObjectBuilders */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D83CF764E1E508E72CA0C73B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				17B51A949F8151FA9D1C7253 /* FilmDetailsRouterInput.h */,
+				3CEE9B80659D32C1F91B8008 /* FilmDetailsRouter.h */,
+				8F082B81A1E68EFC9CD8B640 /* FilmDetailsRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D9F6949E3E1BE112C2206F2F /* FilmsMapModule */ = {
+			isa = PBXGroup;
+			children = (
+				EAF684E3A355AE4FA3208036 /* Assembly */,
+				A85182C59B919380497847E7 /* View */,
+				9C1F9A2271D0E8681C7AFDD0 /* Presenter */,
+				DAB98E60D94DE932C6D9C574 /* Interactor */,
+				07D93954CD3FF4AD846D9F1D /* Router */,
+			);
+			path = FilmsMapModule;
+			sourceTree = "<group>";
+		};
+		DAB98E60D94DE932C6D9C574 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D8E7400C466B82B67190AAD0 /* FilmsMapInteractorInput.h */,
+				DFB5A9760A881573E90EB7DE /* FilmsMapInteractorOutput.h */,
+				934695EA62D80CEF9A5B5A1F /* FilmsMapInteractor.h */,
+				C05AF5E219D638B8A3E4018D /* FilmsMapInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DAC032A137F7B979F910F21E /* FilmDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				6FB35246627B69CB28D36E16 /* Assembly */,
+				4CBCE8E3CEEB21CE73AE2577 /* View */,
+				B83820590124C505EFA21B61 /* Presenter */,
+				0A6B53FC0F92A793AF08BA79 /* Interactor */,
+				D83CF764E1E508E72CA0C73B /* Router */,
+			);
+			path = FilmDetailsModule;
+			sourceTree = "<group>";
+		};
+		EAF684E3A355AE4FA3208036 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				B96960366334E868D1468E55 /* FilmsMapAssembly.h */,
+				4B4A19D5A065C5887EB370DF /* FilmsMapAssembly.m */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +917,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 296B705D1F2E648600CCADD5 /* Build configuration list for PBXNativeTarget "Movie Markers" */;
 			buildPhases = (
+				9CBE8A1DCBC5951A3FC9F995 /* [CP] Check Pods Manifest.lock */,
 				296B70421F2E648600CCADD5 /* Sources */,
 				296B70431F2E648600CCADD5 /* Frameworks */,
 				296B70441F2E648600CCADD5 /* Resources */,
+				2FBC77B81B27D806A6CA09A3 /* [CP] Embed Pods Frameworks */,
+				A6BD3EA98E302D8703207666 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,42 +972,141 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296B70591F2E648600CCADD5 /* LaunchScreen.storyboard in Resources */,
-				296B70561F2E648600CCADD5 /* Assets.xcassets in Resources */,
-				296B70541F2E648600CCADD5 /* Main.storyboard in Resources */,
+				29A5EFC21F8AA5A3004C8446 /* Main.storyboard in Resources */,
+				299CCB591F9CC0C600630147 /* MarkerCell.xib in Resources */,
+				29A5EFC31F8AA5A3004C8446 /* LaunchScreen.storyboard in Resources */,
+				B18B36BFFCC5E5863F49E535 /* Assets.xcassets in Resources */,
+				B18B3D7D8863F62574B67BA8 /* Localizable.strings in Resources */,
+				2960E05E1FAE37FA00B77155 /* FilmFeedCell.xib in Resources */,
+				B18B3C8C5AA69ACAB948C766 /* films.json in Resources */,
+				B18B311B206BBF8BEB9FA58C /* CustomInfoWindow.xib in Resources */,
+				299CCB571F9CBE5700630147 /* FilmCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FBC77B81B27D806A6CA09A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movie Markers/Pods-Movie Markers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CBE8A1DCBC5951A3FC9F995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BD3EA98E302D8703207666 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movie Markers/Pods-Movie Markers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		296B70421F2E648600CCADD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296B70511F2E648600CCADD5 /* ViewController.m in Sources */,
-				296B704E1F2E648600CCADD5 /* AppDelegate.m in Sources */,
 				296B704B1F2E648600CCADD5 /* main.m in Sources */,
+				C41D3B147D15BDED2296AEC5 /* FilmsFeedAssembly.m in Sources */,
+				B38313634F78DCB81E7DB945 /* FilmsFeedViewController.m in Sources */,
+				F2D8DAE476F69F85A153B39F /* FilmsFeedPresenter.m in Sources */,
+				AFDD269AFF04BAA80897FD88 /* FilmsFeedInteractor.m in Sources */,
+				69A0A1E18BB69DE70C606EBC /* FilmsFeedRouter.m in Sources */,
+				515096F8C8E1F0ACB5D3AE83 /* FilmDetailsAssembly.m in Sources */,
+				6284CEF2937D51B85C70F39E /* FilmDetailsViewController.m in Sources */,
+				48F5F6C6F8D2C1D7E9AD7DB3 /* FilmDetailsPresenter.m in Sources */,
+				8B38047675D4E0F91321A051 /* FilmDetailsInteractor.m in Sources */,
+				2B6A1D4C149BCA453BB3FFB1 /* FilmDetailsRouter.m in Sources */,
+				FA7F6D0435F04320178E2666 /* FilmsMapAssembly.m in Sources */,
+				60E37389361014FA54D26C3C /* FilmsMapViewController.m in Sources */,
+				4F6F11EF88C8DC7C11D19B0C /* FilmsMapPresenter.m in Sources */,
+				A9D2253B3FA9EBA2E23BFCBE /* FilmsMapInteractor.m in Sources */,
+				1A888D703A5BA93EBDF92EA0 /* FilmsMapRouter.m in Sources */,
+				B18B3AF3D3060C10A4EF33BB /* AppDelegate.m in Sources */,
+				B18B3CDEC6B6C557452513CF /* CustomInfoWindow.m in Sources */,
+				B18B3A0AEB1507E4B5738CFA /* FilmDetailsDataDisplayManager.m in Sources */,
+				B18B3FB192775808889EEFF2 /* FilmDetailsCellObjectBuilder.m in Sources */,
+				B18B3D233DC72C01D31A55F9 /* FilmCell.m in Sources */,
+				B18B3B475B6E94672D32C5A4 /* MarkerCell.m in Sources */,
+				B18B3B8D9D8EEADC16B1B2DA /* FilmCellObject.m in Sources */,
+				B18B3B873F8F58DDEEC13F00 /* MarkerCellObject.m in Sources */,
+				B18B392D68F0AADC7B30E0E9 /* FilmFeedCellObjectBuilder.m in Sources */,
+				B18B331D00CF4F636F2ACDF6 /* FilmFeedCellObject.m in Sources */,
+				B18B3C5C3CF50A82449A1790 /* FilmFeedCell.m in Sources */,
+				B18B3BE46DAFD8436D5193A3 /* FilmFeedDataDisplayManager.m in Sources */,
+				B18B345FC2049B8392126E77 /* FilmPlainObject.m in Sources */,
+				B18B3CA070D6CA9FA527E224 /* MarkerPlainObject.m in Sources */,
+				B18B37831D485E40A2F95A5F /* FilmPlainObjectMappingProvider.m in Sources */,
+				B18B3E9CC92B4820F81770AF /* MarkerPlainObjectMappingProvider.m in Sources */,
+				B18B3152BF326535D8CC0E79 /* FilmServiceImpl.m in Sources */,
+				B18B3A2CA45D66BEBACFC1D3 /* ServiceComponentsAssembly.m in Sources */,
+				B18B395795700BEA6B72C4B9 /* ModuleAssemblyBase.m in Sources */,
+				B18B3E059EACA80863928119 /* MarkerJsonConverter.m in Sources */,
+				B18B35FE857921DFCAECD63C /* Constants.m in Sources */,
+				B18B353D0AB21B562D52B007 /* ApplicationConfiguratorImplementation.m in Sources */,
+				B18B3F8B16F4230AB8E45DA6 /* ApplicationAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		296B70521F2E648600CCADD5 /* Main.storyboard */ = {
+		29A5EFBE1F8AA5A3004C8446 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				296B70531F2E648600CCADD5 /* Base */,
+				29A5EFBF1F8AA5A3004C8446 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		296B70571F2E648600CCADD5 /* LaunchScreen.storyboard */ = {
+		29A5EFC01F8AA5A3004C8446 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				296B70581F2E648600CCADD5 /* Base */,
+				29A5EFC11F8AA5A3004C8446 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B18B3FA03ED9453C3E2FFF94 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18B36D5BCF8C6AAE9AE932E /* en */,
+				B18B38AF1613992755C855D3 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,24 +1204,26 @@
 		};
 		296B705E1F2E648600CCADD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9490C3FCA097AE739FB11518 /* Pods-Movie Markers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ZU2JEECEY;
-				INFOPLIST_FILE = "Movie Markers/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Movie Markers/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.trykov.movie.markers.Movie-Markers";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.trykov.movie.markers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		296B705F1F2E648600CCADD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF398660024B49230990FD1 /* Pods-Movie Markers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ZU2JEECEY;
-				INFOPLIST_FILE = "Movie Markers/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Movie Markers/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.trykov.movie.markers.Movie-Markers";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.trykov.movie.markers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -312,6 +1247,7 @@
 				296B705F1F2E648600CCADD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
